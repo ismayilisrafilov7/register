@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGİSTER
+    </title>
+</head>
+
+<body style="background-image: url('HERO-ART-microsoft_azure_1920x1000_nologo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
+    <div id="page" align=center style="margin-top: 300px;color:deepskyblue;">
+        <img src="nasa-logo-web-rgb.png" width=300px style="margin-top: -200px;" alt="">
+        <form method="POST" action="home.py">
+            <label for="name" style="margin-right: 19px ;">Name</label>
+            <input type="text" name="name" placeholder="Please enter a name">
+            <br> <br>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" placeholder="Please enter a surname">
+            <br> <br>
+            <label for="gender">Gender</label>
+            <input style="margin-left: 32px;" type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br> <br>
+            <label for="phone">Phone no</label>
+            <select name="phone" id="page">
+                <option value="0">Enter country code</option>
+                <option value="+994">+994</option>
+                <option value="+995">+995</option>
+                <option value="+996">+996</option>
+                <option value="+997">+997</option>
+            </select>
+            <input type="phone" name="phone" placeholder="*******">
+            <br> <br>
+            <label for="email" style="margin-right: 19px ;">Email</label>
+            <input type="email" name="email" placeholder="Please enter a email">
+            <br> <br>
+            <label for="pass" style="margin-right: -13px ; ">Password</label>
+            <input style="margin-left: 10px ;" type="password" name="pass" placeholder="Please enter a pass">
+            <br> <br>
+            <label for="Apass">A.Password</label>
+            <input type="password" name="Apass" placeholder="Please enter a a.pass">
+            <br> <br>
+            <input style="background-color:deepskyblue" type="submit" value="SEND">
+
+        </form>
+    </div>
+</body>
+
+</html>
